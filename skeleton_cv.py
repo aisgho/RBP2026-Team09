@@ -150,7 +150,7 @@ def calculate_angle(line):
 
 def line_point_distance(a, b, x, y):
         
-    distance = float(square((y-a*x-b)**2)/square(a**2+b**2)) # TODO
+    distance = float(sqrt((y-a*x-b)**2)/sqrt(a**2+b**2)) # TODO
 
     return distance
 
