@@ -145,9 +145,9 @@ def calculate_angle(line):
     #       Convert the angle so that the output is in the range (-90, 90].
 
     if angle > 90:
-            angle -= 180
+        angle -= 180
     elif angle <= -90:
-            angle += 180
+        angle += 180
     return angle
 
 def line_point_distance(a, b, x, y):
